@@ -20,7 +20,6 @@ def conradGitUri = "https://github.com/iPlantCollaborativeOpenSource/Conrad.git"
 def heuristomancerGitUri = "https://github.com/iPlantCollaborativeOpenSource/heuristomancer.git"
 def cljIcatDirectGitUri = "https://github.com/iPlantCollaborativeOpenSource/clj-icat-direct.git"
 def kameleonGitUri = "https://github.com/iPlantCollaborativeOpenSource/kameleon.git"
-def clavinJavaGitUri = "https://github.com/iPlantCollaborativeOpenSource/clavin-java.git"
 def mescalGitUri = "https://github.com/iPlantCollaborativeOpenSource/mescal.git"
 def cljJargonGitUri = "https://github.com/iPlantCollaborativeOpenSource/clj-jargon.git"
 def cljCasGitUri = "https://github.com/iPlantCollaborativeOpenSource/clj-cas.git"
@@ -71,7 +70,6 @@ def conradUpstream = "conrad"
 def heuristomancerUpstream = "heuristomancer"
 def cljIcatDirectUpstream = "clj-icat-direct"
 def kameleonUpstream = "kameleon"
-def clavinJavaUpstream = "clavin-java"
 def mescalUpstream = "mescal"
 def cljJargonUpstream = "clj-jargon"
 def cljCasUpstream = "clj-cas"
@@ -206,13 +204,6 @@ project(':kameleon') {
    ext.remoteUri = kameleonGitUri
    ext.remoteRef = kameleonUpstream
    ext.subtreePrefix = kameleonPrefix
-
-}
-
-project(':clavin-java') { 
-   ext.remoteUri = clavinJavaGitUri
-   ext.remoteRef = clavinJavaUpstream
-   ext.subtreePrefix = clavinJavaPrefix
 
 }
 
